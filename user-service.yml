@@ -12,3 +12,5 @@ spring:
     password: "{cipher}AQBG6KoGXq9hA00saQrs5IpILJxl077ym0D9sqoo4jADxvolXlnOV2ZKFrXgbmvK6NVn2lKxJpqGSJsdmrm2bhhfJZlhMs9siaRpmzQl1TRsXjXh5k1CAwke+mRV4TALzSqEfu5LtUl4pj5+/fcuo3nIqI755CeMkhoO4P8T+XovdjhF/GPnDhPM9fi0rlS0zIQPa6ZR9WNJqsc7wp5uynRIHsvBBsWlnJZXLd2rl5oRPu5iA9XYQG96vMTWpbkbYqZ2aFiiTgJck0W9QtP6uuJ5Wkxs4L0/jCnSRkvgVXN+9YBEYktAOiJjbYSMzln7DH2eIpeYzt2WDRdP1rjUzoCKcHElu6t8UgSVie1P8VtnCdjoKdm5MzOriP6kL/Earro="
 order_service:
   url: http://order-service/order-service/%s/orders
+  exception:
+    orders_is_empty: Usre's order is empty.
